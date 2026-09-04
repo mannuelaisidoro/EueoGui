@@ -33,6 +33,9 @@ setInterval(atualizarContador, 1000);
 
 // PLAYER
 const audio = document.getElementById("audio");
+audio.src = "assets/alianca.mp3?v=2";
+audio.load();
+
 const playButton = document.getElementById("playButton");
 const progressBar = document.getElementById("progressBar");
 const currentTime = document.getElementById("currentTime");
