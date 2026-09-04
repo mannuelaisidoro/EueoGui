@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100515">
+  <title>para o meu my honey ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="stars"></div>
+
+  <header class="top">
+    <span>para o meu</span>
+    <strong>my honey ♡</strong>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="hero-photo-wrap">
+        <img src="assets/foto1.jpg" alt="nossa primeira viagem">
+      </div>
+
+      <div class="hero-text">
+        <p class="eyebrow">uma surpresa especial para você</p>
+        <h1>Guilherme <span>♡</span></h1>
+        <h2>você é meu <em>lugar favorito</em></h2>
+        <p class="intro">
+          fiz esse cantinho para guardar um pouquinho da nossa história,
+          das nossas memórias e de tudo que torna você tão especial para mim.
+        </p>
+
+        <div class="counter">
+          <div><b id="days">0</b><small>dias</small></div>
+          <div><b id="hours">00</b><small>horas</small></div>
+          <div><b id="minutes">00</b><small>minutos</small></div>
+          <div><b id="seconds">00</b><small>segundos</small></div>
+        </div>
+
+        <a class="button" href="#musica">♡ clique aqui, amor ♡</a>
+      </div>
+    </section>
+
+    <section id="musica">
+      <div class="section-heading">
+        <p class="eyebrow">♫ nossa música</p>
+        <h2>Aliança</h2>
+        <p>Tribalistas — a trilha sonora dessa surpresa.</p>
+      </div>
+
+      <div class="music-card">
+        <img src="assets/foto5.jpg" alt="">
+        <div class="music-info">
+          <h3>Aliança</h3>
+          <p>Tribalistas</p>
+
+          <div class="player">
+            <button id="playButton">▶</button>
+            <div class="progress">
+              <span id="progressBar"></span>
+            </div>
+            <span id="currentTime">00:00</span>
+          </div>
+
+          <small>
+            opcional: coloque um arquivo chamado <b>alianca.mp3</b>
+            na mesma pasta do site.
+          </small>
+        </div>
+      </div>
+
+      <audio id="audio" src="alianca.mp3" loop></audio>
+    </section>
+
+    <section class="verse-section">
+      <div class="verse-card">
+        <span class="big-heart">♡</span>
+        <blockquote>
+          “Tudo sofre, tudo crê, tudo espera, tudo suporta.”
+        </blockquote>
+        <p>1 Coríntios 13:7</p>
+        <span class="big-heart">♡</span>
+      </div>
+    </section>
+
+    <section id="momentos">
+      <div class="section-heading">
+        <p class="eyebrow">♡ lembranças nossas</p>
+        <h2>nossos momentos</h2>
+        <p>cinco pedacinhos da nossa história que eu quis guardar aqui.</p>
+      </div>
+
+      <div class="timeline">
+
+        <article class="memory">
+          <div class="number">1</div>
+          <img src="assets/foto1.jpg" alt="nossa primeira viagem juntinhos">
+          <h3>nossa primeira viagem juntinhos</h3>
+          <p>um dos primeiros capítulos da nossa história ♡</p>
+        </article>
+
+        <article class="memory">
+          <div class="number">2</div>
+          <img src="assets/foto2.jpg" alt="shopping e boliche">
+          <h3>shopping + boliche</h3>
+          <p>fomos no shopping e jogamos boliche.</p>
+        </article>
+
+        <article class="memory">
+          <div class="number">3</div>
+          <img src="assets/foto3.jpg" alt="FNAF 2 no cinema">
+          <h3>FNAF 2 no cinema</h3>
+          <p>fomos assistir FNAF 2 no cinema ♡</p>
+        </article>
+
+        <article class="memory">
+          <div class="number">4</div>
+          <img src="assets/foto4.jpg" alt="parque e vôlei">
+          <h3>parque + vôlei</h3>
+          <p>fomos ao parque e jogamos vôlei.</p>
+        </article>
+
+        <article class="memory">
+          <div class="number">5</div>
+          <img src="assets/foto5.jpg" alt="filme da minha série favorita">
+          <h3>meu filme favorito</h3>
+          <p>fomos ao cinema ver o filme da minha série favorita.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="letter">
+      <div class="letter-card">
+        <p class="eyebrow">uma cartinha pra você</p>
+        <h2>meu <em>my honey</em> ♡</h2>
+        <p>
+          obrigada por cada momento, cada risada, cada conversa e por todas
+          as pequenas coisas que fazem a nossa história ser tão especial.
+        </p>
+        <p>
+          escolhi cada foto pensando em nós e fiz essa página para guardar
+          um pouquinho de tudo que já vivemos juntos.
+        </p>
+      </div>
+    </section>
+
+    <section class="final">
+      <div>
+        <div class="heart-animation">♥</div>
+        <h2>eu te amo,<br><em>my honey.</em></h2>
+        <p>23 de novembro de 2025 ♡</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>feito com carinho para o Gui ♡</footer>
+
+  <button class="top-button" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
